@@ -27,11 +27,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/src/task3/диаграмма.drawio
+/src/main/java/task3/диаграмма.drawio
 /task2.iml
 /.idea/uiDesigner.xml
 /.idea/.gitignore
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
-/src/task2/диаграмма.drawio
+/src/main/java/task2/диаграмма.drawio
+/.idea/inspectionProfiles/Project_Default.xml
