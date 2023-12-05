@@ -5,10 +5,10 @@ public class Dealer extends Supplier {
     private Manufacturer manufacturer;
     private double margin;
 
-    public Dealer(int inn, String title, String address) {
-        this.inn = inn;
-        this.title = title;
-        this.address = address;
+    public Dealer(String inn, String title, String address, Manufacturer manufacturer, double margin) {
+        super(inn, title, address);
+        this.manufacturer = manufacturer;
+        this.margin = margin;
     }
 
     public Manufacturer getManufacturer() {

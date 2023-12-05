@@ -1,11 +1,17 @@
 package task3;
 
 public abstract class Supplier {
-    protected int inn;
+    protected String inn;
     protected String title;
     protected String address;
 
-    public int getInn() {
+    public Supplier(String inn, String title, String address) {
+        this.inn = inn;
+        this.title = title;
+        this.address = address;
+    }
+
+    public String getInn() {
         return inn;
     }
 
@@ -21,7 +27,7 @@ public abstract class Supplier {
         this.address = address;
     }
 
-    public void setInn(int inn) {
+    public void setInn(String inn) {
         this.inn = inn;
     }
 

@@ -4,18 +4,18 @@ public class Product {
     private String productNumber;
     private String title;
     private long cost;
-    private Manufacturer manufacturer;
+    private Supplier supplier;
 
     public Product(String productNumber, String title,
-                   long cost, Manufacturer manufacturer) {
+                   long cost, Supplier supplier) {
         this.productNumber = productNumber;
         this.title = title;
         this.cost = cost;
-        this.manufacturer = manufacturer;
+        this.supplier = supplier;
     }
 
-    public Manufacturer getManufacturer() {
-        return manufacturer;
+    public Supplier getSupplier() {
+        return supplier;
     }
 
     public String getTitle() {
